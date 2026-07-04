@@ -37,7 +37,7 @@ public class Client {
         Thread send = new Thread(() -> {
             try {
                 while (true) {
-                    System.out.print("You: ");
+                    System.out.print("kari: ");
                     String msg = console.readLine();
                     out.println(msg);
                 }
